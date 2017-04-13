@@ -14,7 +14,7 @@ bot.on('ready', () => {
 })
 
 bot.on('message', (message) => {
-if (message.content.toLowerCase().includes("sing") && (bot.user.username != message.author.username)) {
+if (message.content.toLowerCase().includes(" sing ") && (bot.user.username != message.author.username)) {
      var number = Math.floor(Math.random() * (num3 - num1 + 1) + num1);
      if (number == 1) { message.channel.sendMessage("Hm? Is that the screech of a dying rat?");
     }
@@ -33,7 +33,7 @@ if (message.content.toLowerCase()=="/whips driz") {
   }
     if (number == 4) { message.channel.sendMessage("Ha. I don't dislike pain.")}
 }
-if (message.content.toLowerCase().includes("bully")) {
+if (message.content.toLowerCase().includes(" bully ")) {
     var number = Math.floor(Math.random() * (num5 - num1 + 1) + num1);
     if (number == 1) { message.channel.sendMessage("Someone called~?");
     }
@@ -47,7 +47,7 @@ if (message.content.toLowerCase().includes("bully")) {
   }
 }
 
-if (message.content.toLowerCase().includes("hey driz")) {
+if (message.content.toLowerCase().includes(" hey driz ")) {
     var number = Math.floor(Math.random() * (num6 - num1 + 1) + num1);
     if (number == 1) { message.channel.sendMessage("... (ignores)");
     }
@@ -74,10 +74,10 @@ if (message.content.toLowerCase().includes("hey driz")) {
     if (number == 4) { message.channel.sendMessage("Kindness from you? The world's ending...")
   }
 }
- if (message.content.toLowerCase().includes("my life")) {
+ if (message.content.toLowerCase().includes(" my life ")) {
   { message.channel.sendMessage("Do you really have one?")}
 }
-if (message.content.toLowerCase().includes("i made food")) {
+if (message.content.toLowerCase().includes(" i made food ")) {
   { message.channel.sendMessage("Che. My one weakness.")}
 }
 
