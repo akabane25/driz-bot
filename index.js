@@ -7,6 +7,7 @@ var num3 = 3;
 var num4 = 4;
 var num5 = 5;
 var num6 = 6;
+var num7 = 7;
 
 bot.on('ready', () => {
     bot.user.setGame('Making Cinderbob miserable');
@@ -45,6 +46,22 @@ if (message.content.toLowerCase().includes("bully")) {
     if (number == 5) { message.channel.sendMessage("Keep your hands off Cinderbob or you'll have no hands.")
   }
 }
+
+if (message.content.toLowerCase().includes("hey driz")) {
+    var number = Math.floor(Math.random() * (num6 - num1 + 1) + num1);
+    if (number == 1) { message.channel.sendMessage("... (ignores)");
+    }
+    if (number == 2) { message.channel.sendMessage("Yo")
+  }
+    if (number == 3) { message.channel.sendMessage("What do the likes of you want?")
+  }
+    if (number == 4) { message.channel.sendMessage("Don't talk to me in a familiar tone!")
+  }
+    if (number == 5) { message.channel.sendMessage("Hey, ~~darling~~ slave.")
+  }
+    if (number == 6) { message.channel.sendMessage("...Not right now.")
+  }
+}
  
  if (message.content.toLowerCase()=="/holds driz hand") {
     var number = Math.floor(Math.random() * (num4 - num1 + 1) + num1);
@@ -60,7 +77,9 @@ if (message.content.toLowerCase().includes("bully")) {
  if (message.content.toLowerCase().includes("my life")) {
   { message.channel.sendMessage("Do you really have one?")}
 }
-
+if (message.content.toLowerCase().includes("i made food")) {
+  { message.channel.sendMessage("Che. My one weakness.")}
+}
 
 });
 bot.login('MzAyMDQyODcyNDYxNjU2MDY0.C9Dy5w.hQcJkjcH81seoslFHaGphfe6y00');
