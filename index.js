@@ -47,7 +47,7 @@ if (message.content.toLowerCase().includes("bully")) {
   }
 }
 
-if (message.content.toLowerCase().includes("hey driz")) {
+if (message.content.toLowerCase()=="/hey driz") {
     var number = Math.floor(Math.random() * (num6 - num1 + 1) + num1);
     if (number == 1) { message.channel.sendMessage("... (ignores)");
     }
