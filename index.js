@@ -16,12 +16,18 @@ bot.on('ready', () => {
 bot.on('message', (message) => {
 if (message.content.toLowerCase().includes("sing") && (bot.user.username != message.author.username)) {
      var number = Math.floor(Math.random() * (num3 - num1 + 1) + num1);
-     if (number == 1) { message.channel.sendMessage("Hm? Is that the screech of a dying rat?");
+     if (number == 1) { 
+       message.channel.sendMessage("Hm? Is that the screech of a dying rat?")
+       message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
     }
-    if (number == 2) { message.channel.sendMessage("Tsk. Filthy amateur, let me show you how it's done.")
-  }
-    if (number == 3) { message.channel.sendMessage("2/10.")
-  }
+    if (number == 2) { 
+      message.channel.sendMessage("Tsk. Filthy amateur, let me show you how it's done.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
+    }
+    if (number == 3) { 
+      message.channel.sendMessage("2/10.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
+    }
 }
 if (message.content.toLowerCase()=="/whips driz") {
     var number = Math.floor(Math.random() * (num4 - num1 + 1) + num1);
@@ -53,7 +59,9 @@ if (message.content.toLowerCase()=="/hey driz") {
     }
     if (number == 2) { message.channel.sendMessage("Yo")
   }
-    if (number == 3) { message.channel.sendMessage("What do the likes of you want?")
+    if (number == 3) { 
+      message.channel.sendMessage("What do the likes of you want?")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
   }
     if (number == 4) { message.channel.sendMessage("Don't talk to me in a familiar tone!")
   }
@@ -75,7 +83,9 @@ if (message.content.toLowerCase()=="/hey driz") {
   }
 }
  if (message.content.toLowerCase().includes("my life")) {
-  { message.channel.sendMessage("Do you really have one?")}
+  { 
+    message.channel.sendMessage("Do you really have one?")}
+    message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
 }
 if (message.content.toLowerCase().includes("i made food")) {
   { message.channel.sendMessage("Che. My one weakness.")}
