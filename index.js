@@ -14,7 +14,7 @@ bot.on('ready', () => {
 })
 
 bot.on('message', (message) => {
-if (message.content.toLowerCase().includes("sing") && (bot.user.username != message.author.username)) {
+  if (message.content.toLowerCase().includes("sing") && (bot.user.username != message.author.username)) {
      var number = Math.floor(Math.random() * (num3 - num1 + 1) + num1);
      if (number == 1) { 
        message.channel.sendMessage("Hm? Is that the screech of a dying rat?")
@@ -28,68 +28,105 @@ if (message.content.toLowerCase().includes("sing") && (bot.user.username != mess
       message.channel.sendMessage("2/10.")
       message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
     }
-}
-if (message.content.toLowerCase()=="/whips driz") {
+  }
+  if (message.content.toLowerCase()=="/whips driz") {
     var number = Math.floor(Math.random() * (num4 - num1 + 1) + num1);
-    if (number == 1) { message.channel.sendMessage("What'd you think you're doing?");
+    if (number == 1) { 
+      message.channel.sendMessage("What'd you think you're doing?");
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564857750749185/image.jpg")
     }
-    if (number == 2) { message.channel.sendMessage("Should of told me if you liked whips ;)")
+    if (number == 2) { 
+      message.channel.sendMessage("Should of told me if you liked whips ;)")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
+    if (number == 3) { 
+      message.channel.sendMessage("Ouch...")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562958179827713/image.jpg")
+    }
+    if (number == 4) { 
+      message.channel.sendMessage("Ha. I don't dislike pain.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562958179827713/image.jpg")
+    }
   }
-    if (number == 3) { message.channel.sendMessage("Ouch...")
-  }
-    if (number == 4) { message.channel.sendMessage("Ha. I don't dislike pain.")}
-}
-if (message.content.toLowerCase().includes("bully")) {
+  if (message.content.toLowerCase().includes("bully")) {
     var number = Math.floor(Math.random() * (num5 - num1 + 1) + num1);
-    if (number == 1) { message.channel.sendMessage("Someone called~?");
+    if (number == 1) { 
+      message.channel.sendMessage("Someone called~?")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
     }
-    if (number == 2) { message.channel.sendMessage("Such cute tears.")
+    if (number == 2) { 
+      message.channel.sendMessage("Such cute tears.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
+    if (number == 3) { 
+      message.channel.sendMessage("The master is here HAHA!")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
+    if (number == 4) { 
+      message.channel.sendMessage("You know you like it, be honest.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
+    if (number == 5) { 
+      message.channel.sendMessage("Keep your hands off Cinderbob or you'll have no hands.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
   }
-    if (number == 3) { message.channel.sendMessage("The master is here HAHA!")
-  }
-    if (number == 4) { message.channel.sendMessage("You know you like it, be honest.")
-  }
-    if (number == 5) { message.channel.sendMessage("Keep your hands off Cinderbob or you'll have no hands.")
-  }
-}
 
-if (message.content.toLowerCase()=="/hey driz") {
+  if (message.content.toLowerCase()=="/hey driz") {
     var number = Math.floor(Math.random() * (num6 - num1 + 1) + num1);
-    if (number == 1) { message.channel.sendMessage("... (ignores)");
+    if (number == 1) { 
+      message.channel.sendMessage("... (ignores)");
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564857750749185/image.jpg")
     }
-    if (number == 2) { message.channel.sendMessage("Yo")
-  }
+    if (number == 2) { 
+      message.channel.sendMessage("Yo")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
     if (number == 3) { 
       message.channel.sendMessage("What do the likes of you want?")
-      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
-  }
-    if (number == 4) { message.channel.sendMessage("Don't talk to me in a familiar tone!")
-  }
-    if (number == 5) { message.channel.sendMessage("Hey, ~~darling~~ slave.")
-  }
-    if (number == 6) { message.channel.sendMessage("...Not right now.")
-  }
-}
- 
- if (message.content.toLowerCase()=="/holds driz hand") {
-    var number = Math.floor(Math.random() * (num4 - num1 + 1) + num1);
-    if (number == 1) { message.channel.sendMessage("Gross.");
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564857750749185/image.jpg")
     }
-    if (number == 2) { message.channel.sendMessage("W-what are you planning?")
+    if (number == 4) { 
+      message.channel.sendMessage("Don't talk to me in a familiar tone!")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564857750749185/image.jpg")
+    }
+    if (number == 5) { 
+      message.channel.sendMessage("Hey, ~~darling~~ slave.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302562109588504576/image.jpg")
+    }
+    if (number == 6) { 
+      message.channel.sendMessage("...Not right now.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564641190576129/image.jpg")
+    }
   }
-    if (number == 3) { message.channel.sendMessage("Let go, I'm not a child.")
+ 
+  if (message.content.toLowerCase()=="/holds driz hand") {
+    var number = Math.floor(Math.random() * (num4 - num1 + 1) + num1);
+    if (number == 1) { 
+      message.channel.sendMessage("Gross.");
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564857750749185/image.jpg")
+    }
+    if (number == 2) { 
+      message.channel.sendMessage("W-what are you planning?")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302565961528246285/image.jpg")
+    }
+    if (number == 3) { 
+      message.channel.sendMessage("Let go, I'm not a child.")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302564857750749185/image.jpg")
+    }
+    if (number == 4) { 
+      message.channel.sendMessage("Kindness from you? The world's ending...")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302565961528246285/image.jpg")
+    }
   }
-    if (number == 4) { message.channel.sendMessage("Kindness from you? The world's ending...")
-  }
-}
- if (message.content.toLowerCase().includes("my life")) {
-  { 
-    message.channel.sendMessage("Do you really have one?")}
+  if (message.content.toLowerCase().includes("my life")) {
+    message.channel.sendMessage("Do you really have one?")
     message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302560248831541248/image.jpg")
-}
-if (message.content.toLowerCase().includes("i made food")) {
-  { message.channel.sendMessage("Che. My one weakness.")}
-}
+  }
+  if (message.content.toLowerCase().includes("i made food")) {
+    message.channel.sendMessage("Che. My one weakness.")
+    message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/302566907142471681/image.png")
+  }
 
 });
 bot.login('MzAyMDQyODcyNDYxNjU2MDY0.C9Dy5w.hQcJkjcH81seoslFHaGphfe6y00');
