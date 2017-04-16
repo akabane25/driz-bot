@@ -14,7 +14,7 @@ bot.on('ready', () => {
 })
 
 bot.on('message', (message) => {
-  if (message.content.toLowerCase().includes("sing") && (bot.user.username != message.author.username)) {
+  if (message.content.toLowerCase()=="/sing" && (bot.user.username != message.author.username)) {
      var number = Math.floor(Math.random() * (num3 - num1 + 1) + num1);
      if (number == 1) { 
        message.channel.sendMessage("Hm? Is that the screech of a dying rat?")
