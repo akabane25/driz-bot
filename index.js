@@ -100,6 +100,34 @@ bot.on('message', (message) => {
     }
   }
  
+  if (message.content.toLowerCase()=="/driz shut up") {
+    var number = Math.floor(Math.random() * (num6 - num1 + 1) + num1);
+    if (number == 1) { 
+      message.channel.sendMessage("mmmmmfh!");
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/307074205411704833/Driztiedup2.png")
+    }
+    if (number == 2) { 
+      message.channel.sendMessage("(What are you're planning to do to me?!)")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/307074205411704833/Driztiedup2.png")
+    }
+    if (number == 3) { 
+      message.channel.sendMessage("(Stop this sin!)")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/307074205411704833/Driztiedup2.png")
+    }
+    if (number == 4) { 
+      message.channel.sendMessage("(!!!)")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/307074205411704833/Driztiedup2.png")
+    }
+    if (number == 5) { 
+      message.channel.sendMessage("(Is this your kink?)")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/307074205411704833/Driztiedup2.png")
+    }
+    if (number == 6) { 
+      message.channel.sendMessage("(Scary...)")
+      message.channel.sendFile("https://cdn.discordapp.com/attachments/302200821544910848/307074205411704833/Driztiedup2.png")
+    }
+  }
+
   if (message.content.toLowerCase()=="/holds driz hand") {
     var number = Math.floor(Math.random() * (num4 - num1 + 1) + num1);
     if (number == 1) { 
