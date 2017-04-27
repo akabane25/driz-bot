@@ -101,6 +101,7 @@ bot.on('message', (message) => {
   }
  
   if (message.content.toLowerCase()=="/driz shut up") {
+    // derp does this deploy
     var number = Math.floor(Math.random() * (num6 - num1 + 1) + num1);
     if (number == 1) { 
       message.channel.sendMessage("mmmmmfh!");
